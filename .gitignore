@@ -1,0 +1,56 @@
+# =====================================================
+# .gitignore — Python / Jupyter / Data Analytics work
+# =====================================================
+
+# --- Python bytecode / build artefacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+.conda/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Secrets / local config ---
+.env
+.env.local
+.env.*.local
+*.secret
+credentials.json
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.bak
+
+# --- Data: keep CSV/XLSX in repo by default;
+#     uncomment below if your data files get large.
+# *.csv
+# *.xlsx
+# *.parquet
+
+# --- Charts: PNGs kept by default for portfolio display.
+#     Uncomment to ignore future scratch charts.
+# scratch_*.png
+# tmp_*.png
